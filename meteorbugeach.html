@@ -1,0 +1,18 @@
+<head>
+  <title>meteorbugeach</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+    {{#each arrayOfStrings}}
+        <div class="foo">
+           g {{this}}
+        </div>
+    {{/each}}
+
+</template>
